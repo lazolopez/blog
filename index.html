@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
     <head>
-        <title>Blog del Diseñador web Daniel Lazo</title>
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Sitio Web de todos mis futuros proyectos" />
         <meta name="robots" content="NoIndex, NoFollow" />
@@ -69,6 +69,7 @@
                 }
             }
         </style>
+        <title>Blog del Diseñador web Daniel Lazo</title>
     </head>
 
     <body>
@@ -76,7 +77,7 @@
         <header class="bgimg-1 w3-display-container w3-opacity-min" id="home">
             <div class="w3-display-middle" style="white-space: nowrap">
                 <figure>
-                    <img src="assets/img/Logo pequeño.png" width="260" alt="Logo de la web" />
+                    <img src="assets/img/logo-mini.webp" width="250" alt="Logo de la web" />
                 </figure>
                 <h1 class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Proyecto de Daniel Lazo</h1>
             </div>
@@ -166,7 +167,7 @@
                             </b>
                         </p>
 
-                        <img src="assets/img/Imagen profesional de hombre en traje.webp" class="w3-round w3-opacity w3-hover-opacity-off" alt="Photo of Me" style="width: 90%; max-width: 500px" />
+                        <img src="assets/img/imagen-profesional-de-hombre-en-traje.webp" class="w3-round w3-opacity w3-hover-opacity-off" alt="Photo of Me" style="width: 90%; max-width: 500px" />
                     </div>
 
                     <div class="w3-padding-large">
@@ -217,58 +218,59 @@
                     Meetings
                 </div>
             </div>
-
-            <!-- Second Parallax Image -->
-            <div class="bgimg-2 w3-display-container w3-opacity-min">
-                <div class="w3-display-middle">
-                    <span class="w3-xxlarge w3-text-white w3-wide" style="background-color: #1b180190"> PORTFOLIO </span>
-                </div>
-            </div>
-
-            <!-- Portfolio -->
-            <section class="w3-content w3-container w3-padding-64" id="portfolio">
-                <h3 class="w3-center">Mis Proyectos</h3>
-
-                <p class="w3-center">
-                    <em>
-                        Here are some of my latest work.<br />
-                        Click on the images to make them bigger.
-                    </em>
-                </p>
-
-                <div class="w3-grid w3-padding-32" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px">
-                    <img src="https://www.w3schools.com/w3images/p1.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains" />
-
-                    <img src="https://www.w3schools.com/w3images/p2.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans" />
-
-                    <img src="https://www.w3schools.com/w3images/p3.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup" />
-
-                    <img src="https://www.w3schools.com/w3images/p4.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean" />
-
-                    <img src="https://www.w3schools.com/w3images/p5.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist" />
-
-                    <img src="https://www.w3schools.com/w3images/p6.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter" />
-
-                    <img src="https://www.w3schools.com/w3images/p7.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train" />
-
-                    <img src="https://www.w3schools.com/w3images/p8.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing" />
+            <article>
+                <!-- Second Parallax Image -->
+                <div class="bgimg-2 w3-display-container w3-opacity-min">
+                    <div class="w3-display-middle">
+                        <span class="w3-xxlarge w3-text-white w3-wide" style="background-color: #1b180190"> PORTFOLIO </span>
+                    </div>
                 </div>
 
-                <p class="w3-center">
-                    <button class="w3-button w3-padding-large w3-light-grey">LOAD MORE</button>
-                </p>
-            </section>
+                <!-- Portfolio -->
+                <section class="w3-content w3-container w3-padding-64" id="portfolio">
+                    <h3 class="w3-center">Mis Proyectos</h3>
 
-            <!-- Image Modal -->
-            <div id="modal01" class="w3-modal w3-black" onclick="this.style.display = 'none'">
-                <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"> × </span>
+                    <p class="w3-center">
+                        <em>
+                            Here are some of my latest work.<br />
+                            Click on the images to make them bigger.
+                        </em>
+                    </p>
 
-                <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-                    <img id="img01" class="w3-image" alt="Selected portfolio image" />
+                    <div class="w3-grid w3-padding-32" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px">
+                        <img src="https://www.w3schools.com/w3images/p1.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains" />
 
-                    <p id="caption" class="w3-opacity w3-large"></p>
+                        <img src="https://www.w3schools.com/w3images/p2.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans" />
+
+                        <img src="https://www.w3schools.com/w3images/p3.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup" />
+
+                        <img src="https://www.w3schools.com/w3images/p4.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean" />
+
+                        <img src="https://www.w3schools.com/w3images/p5.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist" />
+
+                        <img src="https://www.w3schools.com/w3images/p6.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter" />
+
+                        <img src="https://www.w3schools.com/w3images/p7.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train" />
+
+                        <img src="https://www.w3schools.com/w3images/p8.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing" />
+                    </div>
+
+                    <p class="w3-center">
+                        <button class="w3-button w3-padding-large w3-light-grey">LOAD MORE</button>
+                    </p>
+                </section>
+
+                <!-- Image Modal -->
+                <div id="modal01" class="w3-modal w3-black" onclick="this.style.display = 'none'">
+                    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"> × </span>
+
+                    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                        <img id="img01" class="w3-image" alt="Selected portfolio image" />
+
+                        <p id="caption" class="w3-opacity w3-large"></p>
+                    </div>
                 </div>
-            </div>
+            </article>
 
             <!-- Third Parallax Image -->
             <div class="bgimg-3 w3-display-container w3-opacity-min">
