@@ -1,4 +1,4 @@
-# Blog de tareas UF1302
+# Blog de Mis Proyectos
 
 Vease en: https://lazolopez.github.io/blog/
 
