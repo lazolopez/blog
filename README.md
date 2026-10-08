@@ -10,3 +10,6 @@ Imagenes de mi blog
   Licencia:https://pixabay.com/service/license-summary/
 - Imagen de <a href="https://pixabay.com/es/users/doki7-646987/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=583073">Dok Sev</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=583073">Pixabay</a>
   Licencia: https://pixabay.com/service/license-summary/
+
+- Foto de Jordan Bergendahl : https://www.pexels.com/es-es/foto/blanco-y-negro-hombre-traje-mano-10541210/
+- https://www.pexels.com/es-es/@2628960/
