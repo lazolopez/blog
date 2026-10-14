@@ -3,16 +3,20 @@
     --color-secundario: #1009e7;
     --color-terciario: #0d4d4d;
     --color-texto: #222;
+
+    --fontfamily-title: "Titillium Web", sans-serif;
+    --fontfamily-textos: "Titillium Web", sans-serif;
+    --img-parallax-1: 
+;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato", sans-serif;
+    font-family: var(--fontfamily-title);
 }
 
 h1 h2 h3 {
@@ -29,6 +33,17 @@ a {
 
 h1 {
     white-space: nowrap;
+}
+
+html,
+article,
+p,
+li,
+span,
+figcaption,
+caption,
+legend {
+    font-family: var(--fontfamily-textos);
 }
 
 body,
