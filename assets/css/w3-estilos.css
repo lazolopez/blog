@@ -74,6 +74,9 @@ img.avatar {
 .pechado {
     display: none;
 }
+.conctacto address {
+    color: green;
+}
 
 /* Turn off parallax scrolling on tablets and phones */
 @media only screen and (max-device-width: 1600px) {
