@@ -6,7 +6,7 @@
 
     --fontfamily-title: "Titillium Web", sans-serif;
     --fontfamily-textos: "Titillium Web", sans-serif;
-    --img-parallax-1:  
+    --img-parallax-1:   
 ;
 }
 
@@ -64,6 +64,13 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.dl-bgimg {
+    background-color: #222;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Parallax images */
