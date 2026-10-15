@@ -6,8 +6,10 @@
 
     --fontfamily-title: "Titillium Web", sans-serif;
     --fontfamily-textos: "Titillium Web", sans-serif;
-    --img-parallax-1:   
-;
+
+    --bg-fixed-1: url("../img/pexels-tranmautritam-285814.webp");
+    --bg-fixed-2: url("../img/innovalabs-software-developer.webp");
+    --bg-fixed-3: url("../img/Programacion\ web.webp");
 }
 
 h1,
@@ -80,16 +82,16 @@ ul {
 }
 
 .dl-portada {
-    background-image: url("../img/pexels-tranmautritam-285814.webp");
+    background-image: var(--bg-fixed-1);
     min-height: 100vh;
 }
 
 .dl-parallax-2 {
-    background-image: url("../img/innovalabs-software-developer.webp");
+    background-image: var(--bg-fixed-2);
 }
 
 .dl-parallax-3 {
-    background-image: url("../img/Programacion\ web.webp");
+    background-image: var(--bg-fixed-3);
 }
 
 .w3-wide {
