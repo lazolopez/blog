@@ -10,6 +10,15 @@
     --bg-fixed-1: url("../img/pexels-tranmautritam-285814.webp");
     --bg-fixed-2: url("../img/innovalabs-software-developer.webp");
     --bg-fixed-3: url("../img/Programacion\ web.webp");
+
+    --bg-tarea-1: url("https://www.w3schools.com/w3images/p1.jpg");
+    --bg-tarea-2: url("https://www.w3schools.com/w3images/p2.jpg");
+    --bg-tarea-3: url("https://www.w3schools.com/w3images/p3.jpg");
+    --bg-tarea-4: url("https://www.w3schools.com/w3images/p4.jpg");
+    --bg-tarea-5: url("https://www.w3schools.com/w3images/p5.jpg");
+    --bg-tarea-6: url("https://www.w3schools.com/w3images/p6.jpg");
+    --bg-tarea-7: url("https://www.w3schools.com/w3images/p7.jpg");
+    --bg-tarea-8: url("https://www.w3schools.com/w3images/p8.jpg");
 }
 
 h1,
@@ -92,6 +101,45 @@ ul {
 
 .dl-parallax-3 {
     background-image: var(--bg-fixed-3);
+}
+
+.dl-bg-tarea {
+    width: 100%;
+    aspect-ratio: 4/3;
+    /* height: 100%; */
+    margin: 0;
+}
+
+.dl-bg-tarea-1 {
+    background-image: var(--bg-tarea-1);
+}
+
+.dl-bg-tarea-2 {
+    background-image: var(--bg-tarea-2);
+}
+
+.dl-bg-tarea-3 {
+    background-image: var(--bg-tarea-3);
+}
+
+.dl-bg-tarea-4 {
+    background-image: var(--bg-tarea-4);
+}
+
+.dl-bg-tarea-5 {
+    background-image: var(--bg-tarea-5);
+}
+
+.dl-bg-tarea-6 {
+    background-image: var(--bg-tarea-6);
+}
+
+.dl-bg-tarea-7 {
+    background-image: var(--bg-tarea-7);
+}
+
+.dl-bg-tarea-8 {
+    background-image: var(--bg-tarea-8);
 }
 
 .w3-wide {
